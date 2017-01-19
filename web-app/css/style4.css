@@ -1,0 +1,25 @@
+/* 
+    Document   : style4
+    Created on : 19 Jan, 2017, 3:58:35 PM
+    Author     : Himanish
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{}
+
+.loader{
+	background-color: black;
+	font-size: 20px;
+	opacity: 0.8;
+	
+}
+
+.loader span{span{-webkit-animation: pulse 0.4s alternate infinite ease-in-out;
+		&:nth-child(odd) {animation-delay: 0.4s;}}
+
+
+@keyframes pulse{
+	to{transform: scale(0.8);opacity: 0.5;}
+}
+

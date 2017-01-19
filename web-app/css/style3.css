@@ -1,0 +1,39 @@
+/* 
+    Document   : style3
+    Created on : 19 Jan, 2017, 3:58:28 PM
+    Author     : Himanish
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{background-color: #404456}
+
+#boxOne{position:relative;width: 2.1em;height: 2.1em;background-color: transparent;border: 0.25em solid whitesmoke;margin-left: 670px; margin-top:145px;-webkit-transform:rotate(45deg);}
+#boxTwo{position:relative;width: 2.1em;height: 3.5em;background-color: #404456;border-left: 0.25em solid whitesmoke;margin-top:-50px;margin-left: 690px;}
+#boxThree{position: relative;width: 7.1em;height: 3.5em;background-color: transparent;border: 0.25em solid whitesmoke;margin-left: 690px;margin-top: -58px;}
+#stripe{position:absolute;width: 7.1em; height: 0.25em; background-color: whitesmoke; margin-top: 56px;-webkit-animation:pencil 1s infinite;}
+
+@keyframes pencil{
+	0%{margin-top: 56px;}
+	5%{margin-top: 53px;}
+	10%{margin-top: 50px;}
+	15%{margin-top: 47px;}
+	20%{margin-top: 44px;}
+	25%{margin-top: 41px;}
+	30%{margin-top: 38px;}
+	35%{margin-top: 35px;}
+	40%{margin-top: 32px;}
+	45%{margin-top: 29px;}
+	50%{margin-top: 26px;}
+	55%{margin-top: 23px;}
+	60%{margin-top: 20px;}
+	65%{margin-top: 17px;}
+	70%{margin-top: 14px;}
+	75%{margin-top: 11px;}
+	80%{margin-top: 8px;}
+	85%{margin-top: 5px;}
+	90%{margin-top: 2px;}
+	95%{margin-top: -1px;}
+	100%{margin-top: -4px;}
+}
+

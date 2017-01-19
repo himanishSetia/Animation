@@ -1,0 +1,41 @@
+/* 
+    Document   : style2
+    Created on : 19 Jan, 2017, 3:58:22 PM
+    Author     : Himanish
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#box1{position:relative;top: 250px; left: 550px; background-color: transparent; height: 7.1em; width: 7.1em;border: .25em solid whitesmoke;-webkit-transform:rotate(45deg);-webkit-animation:boxOne 2.5s infinite;}
+#box2{position:relative;top: 130px;left: 550px;background-color: transparent;height: 7.1em;width: 7.1em;border:.25em solid whitesmoke;-webkit-animation:boxTwo 2.5s infinite;}
+body{background-color: #404456;}
+
+@keyframes boxOne{
+	0%{transform: rotate(-45deg);opacity: 1}
+	10%{transform: rotate(-90deg);opacity: 0.9}
+	20%{transform: rotate(-135deg);opacity: 0.8}
+	30%{transform: rotate(-180deg);opacity: 0.7}
+	40%{transform: rotate(-225deg);opacity: 0.6}
+	50%{transform: rotate(-360deg);opacity: 0.5}
+	60%{transform: rotate(-225deg);opacity: 0.6}
+	70%{transform: rotate(-180deg);opacity: 0.7}
+	80%{transform: rotate(-135deg);opacity: 0.8}
+	90%{transform: rotate(-90deg);opacity: 0.9}
+	100%{transform: rotate(-45deg);opacity: 1}
+}
+@keyframes boxTwo{
+	0%{transform: rotate(45deg);opacity: 1}
+	10%{transform: rotate(90deg);opacity: 0.9}
+	20%{transform: rotate(135deg);opacity: 0.8}
+	30%{transform: rotate(180deg);opacity: 0.7}
+	40%{transform: rotate(225deg);opacity: 0.6}
+	50%{transform: rotate(360deg);opacity: 0.5}
+	60%{transform: rotate(225deg);opacity: 0.6}
+	70%{transform: rotate(180deg);opacity: 0.7}
+	80%{transform: rotate(135deg);opacity: 0.8}
+	90%{transform: rotate(90deg);opacity: 0.9}
+	100%{transform: rotate(45deg);opacity: 1}
+}
+
+
